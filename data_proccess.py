@@ -38,9 +38,8 @@ with open(input, 'r') as input_file, open(output, 'w', newline='') as output_fil
         #writer.writerow([node,x,y,z,pressure])
 
     data=np.array(data)
-    sorted_data = data[data[:, 2].argsort(kind='mergesort')]
-    sorted_data = sorted_data[sorted_data[:, 1].argsort(kind='mergesort')]
-    sorted_data = sorted_data[sorted_data[:, 0].argsort(kind='mergesort')]
+    sort_indices = np.lexsort((data[:, 1], data[:, 2], data[:, 3]))
+    sorted_data = data[sort_indices]
 
 
     writer.writerows(sorted_data)
