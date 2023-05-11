@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # specify the path to your CSV file
-csv_path = 'dynamic_pressure_field_processed.csv'
+csv_path = 'data/dynamic_pressure_field_processed.csv'
 
 # specify the z plane you want to plot
 z_plane = 0.0

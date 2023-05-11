@@ -2,8 +2,8 @@ import csv
 import numpy as np
 
 # Input data:
-input = "dynamic_pressure_field.csv"
-output = "dynamic_pressure_field_processed.csv"
+input = "data/dynamic_pressure_field.csv"
+output = "data/dynamic_pressure_field_processed.csv"
 
 # Open input CSV file and output CSV file
 with open(input, 'r') as input_file, open(output, 'w', newline='') as output_file:
