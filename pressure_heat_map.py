@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # specify the path to your CSV file
-csv_path = 'data/dynamic_pressure_field_processed_4rotor.csv'
-
+#csv_path = 'data_new/dynamic_pressure_field_numerically_processed_4rotor.csv'
+csv_path = 'data_final/dynamic_pressure_field_processed_round.csv'
 # specify the z plane you want to plot
 z_plane = 0.0
-x_plane = 0.18
+x_plane = 0.25
 
 # initialize empty lists to store x, y, z, and pressure values
 x_vals = []
