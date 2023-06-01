@@ -4,10 +4,10 @@ import numpy as np
 
 # specify the path to your CSV file
 #csv_path = 'data_new/dynamic_pressure_field_numerically_processed_4rotor.csv'
-csv_path = 'data_final/dynamic_pressure_field_processed_round.csv'
+csv_path = 'data_new/dynamic_pressure_field_numerically_processed_final_4rotor_M.csv'
 # specify the z plane you want to plot
 z_plane = 0.0
-x_plane = 0.25
+x_plane = 0.16
 
 # initialize empty lists to store x, y, z, and pressure values
 x_vals = []
@@ -20,10 +20,10 @@ with open(csv_path, 'r') as f:
     reader = csv.reader(f)
     next(reader)  # skip header row
     for row in reader:
-        x_vals.append(float(row[1]))
-        y_vals.append(float(row[2]))
-        z_vals.append(float(row[3]))
-        pressure_vals.append(float(row[4]))
+        x_vals.append(float(row[0]))
+        y_vals.append(float(row[1]))
+        z_vals.append(float(row[2]))
+        pressure_vals.append(float(row[3]))
 
 # convert the x, y, z, and pressure lists to numpy arrays
 x_arr = np.array(x_vals)
