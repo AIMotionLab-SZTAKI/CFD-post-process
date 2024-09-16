@@ -1,6 +1,6 @@
 # CFD-post-process
 
-This repository was created to post-process the CFD (Computational Fluid Dynamics) files.
+This repository was created to post-process the CFD (Computational Fluid Dynamics) files. Detailed documentation regarding the methodology and the post-processing can be found in the `docs/` folder. Raw data files can be downloaded from [here](https://nextcloud.sztaki.hu/apps/files/?dir=/AIMotionLab/CFD/archived_CFD_files_WeinhardtAdam/Lookup%20tables/data_original&fileid=747365), while the final, processed files from [here](https://nextcloud.sztaki.hu/apps/files/?dir=/AIMotionLab/CFD/archived_CFD_files_WeinhardtAdam/Lookup%20tables/data_final&fileid=747366).
 
 
 ### Data folders:
